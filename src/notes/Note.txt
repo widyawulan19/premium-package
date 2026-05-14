@@ -1,0 +1,105 @@
+/* Base: Mobile (default) */
+:root {
+  font-size: 14px;
+}
+
+/* Small devices (≥ 480px) */
+@media (min-width: 480px) {
+  :root {
+    font-size: 15px;
+  }
+}
+
+/* Tablet (≥ 768px) */
+@media (min-width: 768px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+/* Small laptop (≥ 1024px) */
+@media (min-width: 1024px) {
+  :root {
+    font-size: 17px;
+  }
+}
+
+/* Desktop (≥ 1280px) */
+@media (min-width: 1280px) {
+  :root {
+    font-size: 18px;
+  }
+}
+
+https://www.google.com/maps/place/Rene+Cafe/data=!4m7!3m6!1s0x2e6993ee246aa691:0x31fb3bd7dd78af19!8m2!3d-6.3566556!4d106.9083157!16s%2Fg%2F11swyqmjpq!19sChIJkaZqJO6TaS4RGa943dc7-zE
+
+
+REDIRECT GMAPS
+<a
+  href="https://www.google.com/maps/place/Rene+Cafe/data=!4m7!3m6!1s0x2e6993ee246aa691:0x31fb3bd7dd78af19!8m2!3d-6.3566556!4d106.9083157"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Lihat Lokasi
+</a>
+
+
+REDIRECT WA & CHAT OMTOMATIS
+const phone = "6281234567890"
+const message = "Halo saya mau pesan"
+
+const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`
+
+<button
+  onClick={() =>
+    window.open(
+      `https://wa.me/6281234567890?text=${encodeURIComponent(
+        "Halo, saya mau order menu di Rene Cafe"
+      )}`,
+      "_blank"
+    )
+  }
+>
+  Order via WhatsApp
+</button>
+
+=================================================================
+
+
+✨ Option 2 (lebih classy & premium dikit)
+
+Kalau kamu mau naik level dikit:
+
+Title
+
+Find Your Perfect Taste
+
+Subtitle
+
+A curated selection, made just for you.
+
+Description
+
+Whether you seek the warmth of coffee
+or the comfort of a hearty meal,
+your perfect choice starts here.
+
+
+==================================
+CARA MENGHILANGKAN TANDA SCROOL
+.category-button {
+    width: 95%;
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+    overflow-x: auto; /* ⬅️ horizontal scroll */
+
+    -webkit-overflow-scrolling: touch; /* smooth di iOS */
+    
+    scrollbar-width: none; /* Firefox */
+}
+
+/* Chrome, Safari */
+.category-button::-webkit-scrollbar {
+    display: none;
+}

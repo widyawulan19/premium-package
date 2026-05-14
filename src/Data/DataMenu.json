@@ -1,0 +1,147 @@
+[
+    {
+        "category": "APPETIZER & ENTRIES",
+        "items": [
+            {
+                "name": "SPRING ROLLS",
+                "price": 8,
+                "description": "Crispy rolls filled with fresh vegetables, served with dipping sauce."
+            },
+            {
+                "name": "RENCH ONION SOUP",
+                "price": 9,
+                "description": "Warm onion soup with rich broth, topped with herbs and melted cheese."
+            },
+            {
+                "name": "CAESAR SALAD",
+                "price": 10,
+                "description": "Fresh romaine lettuce with Caesar dressing, croutons, and parmesan."
+            }
+        ]
+    },
+    {
+        "category": "MAIN COURSE",
+        "items": [
+            {
+                "name": "GRILL SALMON WITH DILL SAUCE",
+                "price": 18,
+                "description": "Grilled salmon served with creamy dill sauce and fresh herbs."
+            },
+            {
+                "name": "ROAST BEEF WITH VEGETABLES",
+                "price": 20,
+                "description": "Tender roasted beef served with seasonal vegetables."
+            },
+            {
+                "name": "EGGPLANT LASAGNA",
+                "price": 16,
+                "description": "Layered eggplant with rich tomato sauce and melted cheese."
+            }
+        ]
+    },
+    {
+        "category": "DESSERT",
+        "items": [
+            {
+                "name": "APPLE PIE WITH CREAM",
+                "price": 9,
+                "description": "Warm apple pie served with smooth whipped cream."
+            },
+            {
+                "name": "VANILLA ICE CREAM",
+                "price": 7,
+                "description": "Classic vanilla ice cream with a smooth and creamy texture."
+            },
+            {
+                "name": "FRUIT SALAD",
+                "price": 8,
+                "description": "Fresh seasonal fruits served chilled."
+            }
+        ]
+    },
+    {
+        "category": "SPECIAL MENU",
+        "items": [
+            {
+                "name": "CHICKEN AND MUSHROOM PIE",
+                "price": 17,
+                "description": "Savory pie filled with chicken and mushrooms in creamy sauce."
+            },
+            {
+                "name": "TENDERLOIN STEAK",
+                "price": 25,
+                "description": "Juicy grilled tenderloin steak cooked to perfection."
+            },
+            {
+                "name": "VEGETARIAN CURRY",
+                "price": 15,
+                "description": "Mixed vegetables cooked in a flavorful spiced curry sauce."
+            }
+        ]
+    },
+    {
+        "category": "SIDE DISH",
+        "items": [
+            {
+                "name": "MIXED GREEN SALAD",
+                "price": 6,
+                "description": "Fresh mixed greens with light dressing."
+            },
+            {
+                "name": "FRENCH FRIES",
+                "price": 5,
+                "description": "Crispy golden fries served with seasoning."
+            },
+            {
+                "name": "GARLIC BREAD",
+                "price": 6,
+                "description": "Toasted bread with garlic butter and herbs."
+            }
+        ]
+    },
+    {
+        "category": "DRINKS",
+        "items": [
+            {
+                "name": "SODA",
+                "price": 3,
+                "description": "Refreshing carbonated soft drink."
+            },
+            {
+                "name": "MOJITO",
+                "price": 6,
+                "description": "Minty lime drink with a refreshing taste."
+            },
+            {
+                "name": "COFFEE",
+                "price": 4,
+                "description": "Freshly brewed coffee with rich aroma."
+            },
+            {
+                "name": "BLACK TEA",
+                "price": 3,
+                "description": "Classic black tea with a bold flavor."
+            },
+            {
+                "name": "BEER",
+                "price": 7,
+                "description": "Cold beer with a crisp and refreshing taste."
+            },
+            {
+                "name": "RED WINE",
+                "price": 8,
+                "description": "Smooth red wine with rich fruity notes."
+            },
+            {
+                "name": "WHISKEY",
+                "price": 10,
+                "description": "Premium whiskey with a deep and smoky flavor."
+            },
+            {
+                "name": "LEMON TEA",
+                "price": 4,
+                "description": "Black tea infused with fresh lemon."
+            }
+        ]
+    }
+]

@@ -1,0 +1,216 @@
+.ml-container {
+    min-width: 350px;
+    width: 100%;
+    height: 100%;
+
+    background-color: var(--color-bg);
+    /* border: 1px solid red; */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ml-content {
+    padding: 15px;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+
+    background-image: url('../Assets//bg-png3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* =======================
+HEADER
+======================= */
+.ml-header {
+    border-top: 1px solid var(--color-brown);
+    border-bottom: 1px solid var(--color-brown);
+
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    margin-top: 20px;
+
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #f0ece4f4;
+}
+
+.ml-header span {
+    position: absolute;
+    top: -10px;
+    padding: 0px 15px;
+    background-color: var(--color-bg);
+    color: var(--color-brown);
+    letter-spacing: 3px;
+}
+
+.ml-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* border: 1px solid red; */
+}
+
+
+.ml-header h2 {
+    font-size: var(--text-lg);
+    letter-spacing: 2px;
+
+    margin-top: 15px;
+}
+
+
+/* =======================
+IMAGE
+======================= */
+.ml-pic {
+    /* border: 1px solid red; */
+    padding: 0px;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ml-pic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    /* height: 20vh; */
+}
+
+/* =======================
+DETAIL MENU
+======================= */
+.ml-box {
+    width: 100%;
+    height: 60vh;
+    overflow-y: auto;
+
+    border-radius: 8px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+
+    color: var(--color-text-primary);
+    background-color: #f0ece4a0;
+
+
+    gap: 20px;
+
+    -webkit-overflow-scrolling: touch;
+    /* smooth di iOS */
+
+    scrollbar-width: none;
+    /* Firefox */
+
+}
+
+/* Chrome, Safari */
+.ml-box::-webkit-scrollbar {
+    display: none;
+}
+
+/* =======================
+CARD
+======================= */
+.ml-card {
+    /* border: 1px solid red; */
+    border-bottom: 1px solid var(--color-border);
+    width: 100%;
+
+    gap: 15px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.ml-name h3 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 14px;
+    color: var(--color-text-primary);
+}
+
+.ml-name .desc {
+    font-size: 12px;
+    opacity: 0.7;
+    color: var(--color-text-primary);
+    font-style: italic;
+}
+
+.ml-price .price {
+    padding: 0;
+    font-weight: bold;
+    font-size: var(--text-md);
+    color: #cb4f07;
+}
+
+
+/* =======================
+MENU BUTTON
+======================= */
+.ml-btn {
+    width: 100%;
+    /* border: 1px solid red; */
+
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ml-btn .btn-back,
+.ml-btn .btn-order {
+    width: 100%;
+    gap: 10px;
+    padding: 10px;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    border-radius: 4px;
+
+    border: 1px solid var(--color-brown);
+    background-color: var(--color-brown);
+    color: #fff;
+
+
+
+    -webkit-tap-highlight-color: transparent;
+}
+
+.ml-btn .btn-back:hover,
+.ml-btn .btn-order:hover,
+.ml-btn .btn-back:active,
+.ml-btn .btn-order:active {
+    border: 1px solid var(--color-warm);
+    background-color: var(--color-warm);
+    color: var(--color-text-primary);
+}
+
+.ml-icon {
+    font-size: 18px;
+}

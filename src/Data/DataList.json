@@ -1,0 +1,191 @@
+[
+    {
+        "category": "SIGNATURE",
+        "items": [
+            {
+                "name": "Borcelle's Special",
+                "description": "Hot/Ice",
+                "sizes": {
+                    "S": "$2.50",
+                    "M": "$3.00",
+                    "L": "$3.50"
+                },
+                "badge": "popular"
+            },
+            {
+                "name": "The Super Charged",
+                "description": "25% more coffee, hot/ice",
+                "sizes": {
+                    "S": "$3.25",
+                    "M": "$3.65",
+                    "L": "$4.00"
+                }
+            }
+        ]
+    },
+    {
+        "category": "CAFE SPECIALITY",
+        "items": [
+            {
+                "name": "Americano",
+                "sizes": {
+                    "S": "$3.50",
+                    "M": "$3.85",
+                    "L": "-"
+                }
+            },
+            {
+                "name": "Cappuccino",
+                "sizes": {
+                    "S": "$3.75",
+                    "M": "$4.00",
+                    "L": "$4.25"
+                }
+            },
+            {
+                "name": "Mocha",
+                "sizes": {
+                    "S": "$3.00",
+                    "M": "$3.50",
+                    "L": "$4.00"
+                }
+            },
+            {
+                "name": "Espresso",
+                "sizes": {
+                    "S": "$3.50",
+                    "M": "$4.00",
+                    "L": "$4.50"
+                },
+                "badge": "popular"
+            },
+            {
+                "name": "Latte",
+                "sizes": {
+                    "S": "$3.50",
+                    "M": "$4.00",
+                    "L": "$4.50"
+                },
+                "badge": "popular"
+            },
+            {
+                "name": "Affogato",
+                "sizes": {
+                    "S": "$3.75",
+                    "M": "$4.25",
+                    "L": "-"
+                }
+            }
+        ]
+    },
+    {
+        "category": "ICED COFFEE",
+        "items": [
+            {
+                "name": "Asian Dolce Frappucino",
+                "sizes": {
+                    "S": "-",
+                    "M": "$3.50",
+                    "L": "$4.00"
+                }
+            },
+            {
+                "name": "Americano",
+                "sizes": {
+                    "S": "$3.25",
+                    "M": "$3.65",
+                    "L": "$4.10"
+                }
+            },
+            {
+                "name": "Cappuccino",
+                "sizes": {
+                    "S": "-",
+                    "M": "$3.85",
+                    "L": "$4.15"
+                }
+            },
+            {
+                "name": "Latte",
+                "sizes": {
+                    "S": "$3.25",
+                    "M": "$3.65",
+                    "L": "$4.00"
+                }
+            },
+            {
+                "name": "Frappuccino",
+                "sizes": {
+                    "S": "$3.25",
+                    "M": "$3.65",
+                    "L": "$4.00"
+                }
+            },
+            {
+                "name": "Pandan Frappuccino",
+                "sizes": {
+                    "S": "-",
+                    "M": "$3.65",
+                    "L": "$4.00"
+                },
+                "badge": "popular"
+            },
+            {
+                "name": "Espresso",
+                "sizes": {
+                    "S": "$3.65",
+                    "M": "$4.00",
+                    "L": "-"
+                },
+                "badge": "popular"
+            }
+        ]
+    },
+    {
+        "category": "MANUAL BREW",
+        "items": [
+            {
+                "name": "V60",
+                "sizes": {
+                    "S": "$2.50",
+                    "M": "$3.00",
+                    "L": null
+                }
+            },
+            {
+                "name": "French Press",
+                "sizes": {
+                    "S": "$3.25",
+                    "M": "$3.65",
+                    "L": null
+                }
+            },
+            {
+                "name": "Vietnam Drip",
+                "sizes": {
+                    "S": "$3.00",
+                    "M": "$3.35",
+                    "L": "-"
+                },
+                "badge": "popular"
+            },
+            {
+                "name": "Flat Bottom",
+                "sizes": {
+                    "S": "$3.25",
+                    "M": "$3.65",
+                    "L": "$4.00"
+                }
+            },
+            {
+                "name": "Indonesian Tubruk",
+                "sizes": {
+                    "S": "$2.50",
+                    "M": "$3.00",
+                    "L": "-"
+                },
+                "badge": "popular"
+            }
+        ]
+    }
+]

@@ -1,0 +1,184 @@
+.cl-container {
+    min-width: 350px;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    /* gap: 50px; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* =======================
+HEADER
+======================= */
+.cl-header-box {
+    width: 100%;
+    padding: 5px 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.cl-header-box h4 {
+    font-size: var(--text-lg);
+    color: var(--color-brown);
+    margin: 0;
+}
+
+.cl-header-box span {
+    margin: 0;
+    padding: 0;
+    color: var(--color-brown);
+}
+
+/* =======================
+SUB HEADER
+======================= */
+
+.cl-header {
+    /* border: 1px solid blue; */
+    margin-top: 20px;
+
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cl-header h2 {
+    font-size: var(--text-md);
+    color: var(--color-brown);
+}
+
+.cl-header p {
+    width: 80%;
+    padding: 0px;
+    text-align: center;
+    font-size: 12px;
+    font-style: italic;
+    color: var(--color-brown);
+    opacity: 0.7;
+    line-height: 15px;
+}
+
+
+/* =======================
+LINE PNG
+======================= */
+.cl-line {
+    /* border: 1px solid red; */
+    width: 100%;
+    width: 100%;
+    height: 10vh;
+}
+
+.cl-line img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* =======================
+CARD
+======================= */
+
+.cl-card {
+    /* border: 1px solid red; */
+    height: 60%;
+    width: 80%;
+    padding-top: 30px;
+}
+
+.cl-box {
+    margin: 10px 0px;
+    padding: 5px;
+    padding-left: 10px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid var(--color-border);
+
+    transition: all 0.2s ease;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.cl-box:hover,
+.cl-box:active {
+    transform: scale(0.97);
+    border-left: 2px solid var(--color-warm);
+    /* background-color: var(--color-bg-secondary); */
+    color: var(--color-warm);
+    font-weight: bold;
+}
+
+
+/* =======================
+BUTTON BACK
+======================= */
+.cl-btn {
+    margin-top: 20px;
+    width: 90%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cl-btn button {
+    padding: 10px;
+    width: 90%;
+    font-size: 13px;
+
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 6px;
+    border: 1px solid var(--color-brown);
+    background-color: var(--color-bg);
+    color: var(--color-brown);
+    -webkit-tap-highlight-color: transparent;
+
+    cursor: pointer;
+}
+
+.cl-btn button:hover,
+.cl-btn button:active {
+    border: 1px solid var(--color-brown);
+    background-color: var(--color-brown);
+    color: #fff;
+}
+
+/* =======================
+FOOTER
+======================= */
+.cl-footer {
+    width: 100%;
+    margin: 10px 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cl-footer p {
+    letter-spacing: 1px;
+    font-size: 11px;
+    opacity: 0.7;
+    /* color: var(--color-brown); */
+}

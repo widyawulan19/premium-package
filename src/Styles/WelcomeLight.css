@@ -1,0 +1,200 @@
+.welcome-light-container {
+    min-width: 350px;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    gap: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: var(--color-bg-primary);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* =======================
+TITLE
+======================= */
+.light-title {
+    width: 100%;
+    gap: 5px;
+    padding-bottom: 10px;
+    margin: 40px 0px;
+    margin-bottom: 20px;
+    /* border: 1px solid red; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.light-title h1 {
+    font-size: 40px;
+    margin: 0px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    color: var(--color-brown);
+}
+
+.light-title h4 {
+    font-family: "Roboto Slab", serif;
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: var(--color-brown);
+}
+
+
+/* =======================
+IMAGE
+======================= */
+.light-image {
+    /* border: 1px solid red; */
+    width: 80%;
+    height: 40%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.light-image img {
+    height: 100%;
+    width: 100%;
+}
+
+/* =======================
+OPEN HOUR
+======================= */
+.light-oh {
+    /* border: 1px solid red; */
+    width: 80%;
+    gap: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.light-oh h4 {
+    margin: 0px;
+    width: 80%;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: var(--color-brown);
+    border-right: 2px solid var(--color-brown);
+}
+
+.light-oh p {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    color: var(--color-brown);
+}
+
+
+/* =======================
+BUTTON
+======================= */
+
+.light-btn {
+    /* border: 1px solid red; */
+    width: 100%;
+    gap: 5px;
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.light-btn button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    width: 90%;
+    gap: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+
+
+    border-radius: 4px;
+
+
+    border: 1px solid var(--color-brown);
+    background-color: var(--color-brown);
+    color: #fff;
+
+
+    /* color: var(--color-warm);
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-warm); */
+
+    -webkit-tap-highlight-color: transparent;
+}
+
+.light-btn button:hover,
+.light-btn button:active,
+.light-btn .btn-contact:hover,
+.light-btn .btn-contact:active {
+
+    border: 1px solid var(--color-warm);
+    background-color: var(--color-warm);
+    color: var(--color-text-primary);
+}
+
+
+.light-btn .btn-contact {
+    color: var(--color-brown);
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-brown);
+}
+
+.light-footer {
+    margin-top: 30px;
+}
+
+.light-footer p {
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+/* =======================
+LOCATION BTN
+======================= */
+.light-btn .btn-location {
+    border: 1px solid var(--color-bg-primary);
+    color: var(--color-brown);
+    background-color: var(--color-bg-primary);
+    cursor: pointer;
+}
+
+.btn-location a {
+    text-decoration: none;
+    color: var(--color-brown);
+    font-size: 12px;
+}
+
+.btn-location a:hover,
+.btn-location a:active {
+    text-decoration: underline;
+}
+
+.btn-location:hover,
+.btn-location:active {
+    background-color: var(--color-bg-primary) !important;
+    border: 1px solid var(--color-bg-primary) !important;
+}
