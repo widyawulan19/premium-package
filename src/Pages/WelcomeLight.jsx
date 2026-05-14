@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Styles/WelcomeLight.css'
-import { IoChevronForwardOutline,IoChatbubbleOutline, IoLocateOutline } from "react-icons/io5";
+import { IoChevronForwardOutline,IoChatbubbleOutline, IoLocateOutline,IoLocation, IoLogoWhatsapp,IoLogoInstagram } from "react-icons/io5";
 import { useNavigate } from 'react-router-dom';
 import img from '../Assets/logo.png'
 import { IoIosArrowForward } from 'react-icons/io';
@@ -42,8 +42,19 @@ function WelcomeLight() {
                 <a href="https://www.google.com/maps/dir/?api=1&destination=FOJA+COFFEE" target="_blank" rel="noopener noreferrer">
                     Get Directions To Foja Coffee
                 </a>
+                <IoLocation/>
             </button>
 
+            <div className="social-box">
+                <div className="sm-card">
+                    <IoLogoWhatsapp className='sm-icon'/>
+                    <span>WhatsApp</span>
+                </div>
+                <div className="sm-card">
+                    <IoLogoInstagram className='sm-icon'/>
+                    <span>Instagram</span>
+                </div>
+            </div>
         </div>
 
         <div className="light-footer">

@@ -5,6 +5,7 @@ import { IoMenu } from "react-icons/io5";
 import { useNavigate, useParams } from 'react-router-dom';
 import { FaRegStar } from "react-icons/fa6";
 import { IoSearch } from "react-icons/io5";
+import imgCry from '../Assets/cry.png'
 
 function MenuList({ data }) {
 
@@ -21,7 +22,7 @@ function MenuList({ data }) {
     );
 
     if (!currentCategory) {
-        return <p>Menu tidak ditemukan</p>;
+        return <p>Menu tidak ditemukan...</p>;
     }
 
     const handleNavigateToWelcome = () => {
@@ -114,9 +115,10 @@ function MenuList({ data }) {
 
                         ) : (
 
-                            <p className='empty-menu'>
-                                Menu tidak ditemukan
-                            </p>
+                            <div className='empty-menu'>
+                                <img src={imgCry} alt="no data" />
+                                <p>Menu tidak ditemukan ...</p>
+                            </div>
 
                         )}
 

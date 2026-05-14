@@ -1,4 +1,4 @@
-# Digital Menu Web App Packages "BASIC"
+# Digital Menu Web App Packages "PREMIUM PACKAGES"
 
 ## Digital Menu Website Packages
 

@@ -134,6 +134,21 @@ MENU SEARCH
     text-align: center;
     padding: 20px;
     color: gray;
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 100%;
+    gap: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.empty-menu img {
+    width: 70%;
+    height: 100%;
+
 }
 
 
