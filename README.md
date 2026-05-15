@@ -34,9 +34,18 @@ Perfect for:
 Perfect for businesses that need a clean and simple digital menu.
 
 ### What you'll get from this package
-* two page of (welcome, and menu list)
-* responsive digital menu
-* match with your brand color
+* Custom UI design
+* Direct Whatsapp 
+* Social media integration
+* Maps & operasional hour
+
+* Multiple sections/pages
+* Premium animation 
+
+* Interactive experience
+* Promo/banner section
+* Display image for each category
+
 
 ### Features
 * Responsive Digital Menu
