@@ -4,6 +4,10 @@ import '../Styles/ChooseLight.css'
 import { IoChevronBackCircleOutline } from 'react-icons/io5'
 import { useNavigate } from 'react-router-dom'
 import lineImg from '../Assets/remove-png.png'
+import img1 from '../Assets/signature.jpeg'
+import img2 from '../Assets/cafe-speciality.jpeg'
+import img3 from '../Assets/iced-coffee.jpeg'
+import img4 from '../Assets/manual-brew.jpeg'
 
 function ChooseMenu() {
     //state
@@ -16,6 +20,13 @@ function ChooseMenu() {
 
     const navigateCategory = (category) =>{
         navigate(`/menu-list/${category}`)
+    }
+
+    const picImg = {
+        'SIGNATURE' : img1,
+        'CAFE SPECIALITY' : img2,
+        'ICED COFFEE' : img3,
+        'MANUAL BREW' : img4
     }
 
 
@@ -38,7 +49,8 @@ function ChooseMenu() {
         <div className="cl-card">
             {dataList.map((menu, index) =>(
                 <div className="cl-box" onClick={() => navigateCategory(menu.category)}>
-                    <span>{index + 1} .</span>
+                    {/* <span>{index + 1} .</span> */}
+                    <img src={picImg[menu.category]} alt="IMAGE CATEGORY" />
                     <h3>{menu.category}</h3>
                 </div>
             ))}

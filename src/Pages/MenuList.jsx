@@ -5,7 +5,12 @@ import { IoMenu } from "react-icons/io5";
 import { useNavigate, useParams } from 'react-router-dom';
 import { FaRegStar } from "react-icons/fa6";
 import { IoSearch } from "react-icons/io5";
-import imgCry from '../Assets/cry.png'
+import imgCry from '../Assets/emoji.png'
+import img1 from '../Assets/signature.jpeg'
+import img2 from '../Assets/cafe-speciality.jpeg'
+import img3 from '../Assets/iced-coffee.jpeg'
+import img4 from '../Assets/manual-brew.jpeg'
+import SliderImg from '../Components/SliderImg';
 
 function MenuList({ data }) {
 
@@ -34,6 +39,13 @@ function MenuList({ data }) {
         item.name.toLowerCase().includes(searchTerm.toLowerCase())
     );
 
+    const picImg = {
+        'SIGNATURE' : img1,
+        'CAFE SPECIALITY' : img2,
+        'ICED COFFEE' : img3,
+        'MANUAL BREW' : img4
+    }
+
     return (
         <div className='menu-list-container'>
 
@@ -56,6 +68,13 @@ function MenuList({ data }) {
                 </div>
 
             </div>
+
+            <div className="ml-pic">
+                <img src={picImg[currentCategory.category]} alt={currentCategory.name} />
+            </div>
+
+            
+
 
             {/* SEARCH INPUT */}
             <div className="search-container">
@@ -127,6 +146,9 @@ function MenuList({ data }) {
                 </div>
 
             </div>
+
+            {/* SLIDERS IMAGE  */}
+            <SliderImg/>
 
             <div className="cl-footer">
                 <p>CREATE BY LUMINOUS.ID</p>

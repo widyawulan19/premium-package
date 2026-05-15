@@ -95,6 +95,27 @@ HEADAER IMAGE
     color: var(--color-brown);
 }
 
+/* =======================
+MENU IMAGE
+======================= */
+.ml-pic {
+    margin-top: 10px;
+    width: 70%;
+    height: 30%;
+    /* border: 1px solid red; */
+
+    display: none;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+.ml-pic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
 
 /* =======================
 MENU SEARCH
@@ -146,8 +167,8 @@ MENU SEARCH
 }
 
 .empty-menu img {
-    width: 70%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
 
 }
 
@@ -158,8 +179,11 @@ MENU LIST
 .ml-menu-list {
     /* border: 1px solid red; */
     width: 100%;
-    height: 65vh;
+    height: 60vh;
 
+    /* background-image: url('../Assets/bg-icon.png');
+    background-repeat: no-repeat;
+    background-size: cover; */
 }
 
 .bg-cream {
@@ -172,7 +196,7 @@ MENU LIST
 }
 
 .menu-box-list {
-    height: 80vh;
+    height: 70vh;
     overflow-y: auto;
 
     -webkit-overflow-scrolling: touch;
