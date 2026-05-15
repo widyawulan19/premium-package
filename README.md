@@ -171,7 +171,7 @@ This project is open-source and available under the MIT License.
 [https://real-standard-package.vercel.app]
 
 ## Preview 
-![ Welcome Screen](./public/welcomePic.png)
-![ Category Screen](./public/categoryPic.png)
-![ Menu Screen](./public/menuListPic.png)
+![ Welcome Screen](./public/assets/welcomePic.png)
+![ Category Screen](./public/assets/categoryPic.png)
+![ Menu Screen](./public/assets/menuList.png)
 
